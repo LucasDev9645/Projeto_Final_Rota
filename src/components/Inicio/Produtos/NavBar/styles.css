@@ -1,0 +1,30 @@
+.header-container-nav-product {
+  display: flex;
+  max-width: 1200px;
+  height: 60px;
+  margin: 20px auto;
+  background-color: #c7c7c7;
+  padding: 0 20px;
+}
+
+.header-container-nav-product nav {
+  display: flex;
+}
+
+.header-container-nav-product ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-container-nav-product a {
+  color: #000000;
+}
+
+.activeProduct {
+  font-weight: 700;
+}
+
+.inactiveProduct {
+  font-weight: 300;
+}
