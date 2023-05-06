@@ -40,9 +40,7 @@ const NavBar = () => {
           </ul>
         </nav>
       </div>
-      <div>
-        <Outlet />
-      </div>
+      <Outlet />
     </>
   );
 };
